@@ -13,3 +13,9 @@ $(document).ready(function() {
         tagsPosition: 'top'
     });
 });
+document.addEventListener('DOMContentLoaded', function() {
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = './assets/style.css';
+    document.head.appendChild(link);
+});
